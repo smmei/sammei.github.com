@@ -3,6 +3,8 @@
 
 买了一个极1s。拆机之后，焊上UART，便可以看到它里面的信息了。
 
+[极1s主板](20140922-hc5661-disassemble/1166006986.jpg)
+
 ## 硬件配置
 * CPU: MT7620A
 * memory : DDR2 128MB, [winbond w971gg6kb](https://www.winbond.com/NR/rdonlyres/1AE99C6F-CE4E-45A5-B74D-4B1FA6CAE69C/0/W971GG6KB.pdf)
