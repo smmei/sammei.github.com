@@ -89,6 +89,3 @@ push命令使用0002-test.patch。
 
 * [quilt-doc](http://www.shakthimaan.com/downloads/glv/quilt-tutorial/quilt-doc.pdf)
 * [Working with patches](http://wiki.openwrt.org/doc/devel/patches)
-
-test1  
-test2
