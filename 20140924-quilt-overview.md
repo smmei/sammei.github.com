@@ -41,9 +41,11 @@ files     mail    refresh   snapshot
 * test目录下有两个文件file1.c file1.h
 
 * 创建一个新patch
+
 	quilt new 0001-test.patch
 
 * 把文件加入到topmost patch
+
 	quilt add file1.c
 
 接下来对int.c的修改都会记录到topmost patch中去。
@@ -67,6 +69,7 @@ files     mail    refresh   snapshot
 现在使用`quilt files`查看，此patch下没有跟踪文件
 
 * 添加两个文件file1.c file1.h
+
 	quilt add file1.c file1.h
 
 现在使用`quilt files`查看，此patch跟踪了两个文件。编辑它们。
