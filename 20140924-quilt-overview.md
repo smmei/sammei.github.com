@@ -1,7 +1,17 @@
 
-# quilt 简介
+# quilt - 制作patch的工具
 
-想对openwrt做一点修改，把这些修改做成patch提交。于是遇到了quilt这个东西。
+在尝试为openwrt做一个patch时，查到这个工具。openwrt官方已经有很详细的文档对步骤进行说明了。
+
+[quilt](http://en.wikipedia.org/wiki/Quilt_(software))并不是专为openwrt的开发工具。quilt最早由内核开发者[Andrew Morton](http://en.wikipedia.org/wiki/Andrew_Morton_(computer_programmer)) ，为了给Linux内核更容易的打补丁。
+
+这里有几篇文章，可以很好的说明怎么使用quilt:
+
+1. [quilt-doc](http://www.shakthimaan.com/downloads/glv/quilt-tutorial/quilt-doc.pdf)
+2. 用quilt给openwrt制作补丁[Working with patches](http://wiki.openwrt.org/doc/devel/patches)
+3. 用quilt给linux kernel制作补丁 [Managing Your Patches With quilt](http://www.linuxtopia.org/online_books/linux_kernel/kernel_configuration/apas02.html)
+
+当然，对于用git管理起来的linux kernel或其他source来说，git本身是更好的工具。
 
 ## quilt的安装
 
@@ -81,11 +91,3 @@ Now at patch 0002-test.patch
 ```
 push命令使用0002-test.patch。
 
-## 为openwrt制作patch
-
-
-
-## 参考
-
-* [quilt-doc](http://www.shakthimaan.com/downloads/glv/quilt-tutorial/quilt-doc.pdf)
-* [Working with patches](http://wiki.openwrt.org/doc/devel/patches)
